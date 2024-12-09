@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - MINDSPACE</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #EDEDED;  /* Light Beige */
+            color: #624835;  /* Medium Brown */
+            line-height: 1.6;
+            padding: 0;
+        }
+        header {
+            background-color: #624835;  /* Medium Brown */
+            color: #fff;
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+            color: #EDEDED;  /* Light Beige */
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        header nav a:hover {
+            color: #031930;  /* Dark Navy Blue */
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header-title {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 2px solid #624835;  /* Brown border */
+            border-radius: 8px;
+            background-color: transparent;
+        }
+        .header-title h2 {
+            font-size: 2.5rem;
+            color: #624835;  /* Brown heading */
+            font-weight: 300;  /* Minimum bold */
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            font-family: 'Dancing Script', cursive;  /* Playful font */
+        }
+        .header-title p {
+            font-size: 1.2rem;
+            color: #624835;  /* Brown description */
+        }
+        .sections-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .section {
+            background-color: #EDEDED;  /* Light Beige */
+            border: 1px solid #624835;  /* Medium Brown */
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h3 {
+            font-size: 1.4rem;
+            color: #031930;  /* Dark Navy Blue */
+            margin-bottom: 15px;
+        }
+        .section p {
+            font-size: 1.1rem;
+            color: #624835;  /* Medium Brown */
+            margin-bottom: 15px;
+        }
+        .section a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #031930;  /* Dark Navy Blue */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .section a:hover {
+            background-color: #624835;  /* Medium Brown */
+        }
+        .section span {
+            font-size: 3rem;
+            display: block;
+            margin-bottom: 15px;
+            color: #031930;  /* Dark Navy Blue */
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px 0;
+            color: #fff;
+            background-color: #624835;  /* Medium Brown */
+            border-radius: 8px;
+        }
+        @media (max-width: 768px) {
+            .sections-container {
+                grid-template-columns: 1fr 1fr; /* 2 columns on smaller screens */
+            }
+            .section {
+                width: 100%; /* Full-width on smaller screens */
+            }
+        }
+    </style>
+    <!-- Importing a playful cursive font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>MINDSPACE</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Calmatives</a>
+            <a href="#">Blog</a>
+            <a href="#">About Us</a>
+            <a href="#">Help</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="header-title">
+            <h2><span>🌟</span> Join Our Team <span>💼</span></h2>
+            <p>We are looking for passionate people to help make a difference in mental health. Here’s how you can be a part of us.</p>
+        </div>
+        <div class="sections-container">
+            <div class="section">
+                <span>🤝</span>
+                <h3>Become a Volunteer</h3>
+                <p>If you're passionate about mental health, volunteer with us to support individuals in need through meaningful conversations.</p>
+                <a href="volunteer-application.html">Apply Now</a>
+            </div>
+            <div class="section">
+                <span>💡</span>
+                <h3>Work with Professionals</h3>
+                <p>Join our team of experts and provide professional therapy to those looking for assistance in their mental well-being journey.</p>
+                <a href="professional-application.html">Apply as Therapist</a>
+            </div>
+            <div class="section">
+                <span>🌍</span>
+                <h3>Global Outreach</h3>
+                <p>Help us expand Mindspace globally. Be a part of a community that's building a support network for everyone, no matter where they are.</p>
+                <a href="global-outreach.html">Join Global Team</a>
+            </div>
+            <div class="section">
+                <span>📝</span>
+                <h3>Submit Your Application</h3>
+                <p>Fill out our application form to express your interest in joining our team. We're always excited to work with passionate individuals!</p>
+                <a href="application-form.html">Submit Application</a>
+            </div>
+            <div class="section">
+                <span>🎓</span>
+                <h3>Learning & Development</h3>
+                <p>We offer continuous learning opportunities for our team to grow and enhance their skills in mental health support and therapy.</p>
+                <a href="learning-development.html">Learn More</a>
+            </div>
+            <div class="section">
+                <span>🏆</span>
+                <h3>Perks of Joining</h3>
+                <p>As part of the team, enjoy various benefits including flexible working hours, personal growth opportunities, and the satisfaction of making an impact.</p>
+                <a href="join-us-perks.html">Explore Perks</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mindspace. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
